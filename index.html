@@ -30,11 +30,29 @@
 
 		<div class="container" id="datastore">
 			<!-- Uncompleted tasks -->
-			<ul class="todo" id="todo"></ul>
-
+			<p class="heading">Todo list:</p>
+  <ul class="todo" id="todo"></ul>
+			
+			<li id="listelemets"></li>
+<p class="heading">Completed Tasks:</p>
 			<!-- Completed tasks -->
-			<ul class="todo" id="completed"></ul>
+			<ul class="todo" id="completedList"></ul>
+			<li id="listcompelemets"></li>
 		</div>
+
+		<footer> 
+			<div class= "buttons">
+			<button class = "button" id="todoBtn">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve"><polygon points="455,212.5 242.5,212.5 242.5,0 212.5,0 212.5,212.5 0,212.5 0,242.5 212.5,242.5 212.5,455 242.5,455 242.5,242.5 455,242.5 "/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+			</button> 
+			<button class = "completeBtn" id="completeBtn">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 406.834 406.834" style="enable-background:new 0 0 406.834 406.834;" xml:space="preserve"><polygon points="385.621,62.507 146.225,301.901 21.213,176.891 0,198.104 146.225,344.327 406.834,83.72 "/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+			</button>
+			<button class = "deleteBtn" id ="deleteBtn">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 371.23 371.23" style="enable-background:new 0 0 371.23 371.23;" xml:space="preserve"><polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23 185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 "/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+			</button>
+		</div>
+		</footer>
 	
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase.js"></script>
